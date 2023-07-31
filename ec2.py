@@ -21,11 +21,11 @@ ec2_resource = boto3.resource('ec2')
 
 
 
-instance_id = 'i-0a71bf8eb8bfc54d8'
-# # Start the instance
-instance = ec2_resource.Instance(instance_id)
-response = instance.start()
-print("Instance state after starting:", response['StartingInstances'][0]['CurrentState']['Name'])
+# instance_id = 'i-0a71bf8eb8bfc54d8'
+# # # Start the instance
+# instance = ec2_resource.Instance(instance_id)
+# response = instance.start()
+# print("Instance state after starting:", response['StartingInstances'][0]['CurrentState']['Name'])
 
 
 
